@@ -1,0 +1,476 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* Task-1 */
+
+
+.main_container{
+	margin: 50px auto;
+	border: 2px solid blue;
+	width: 40%;
+	height: 66vh;
+	padding: 10px;
+}
+
+.sub_container{
+	padding: 10px;
+	line-height: 3;
+}
+
+.primary_badge a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: skyblue;
+	padding: 2px 8px;
+	margin: 6px;
+}
+
+.secondary_badge a{
+	text-decoration: none;
+	background-color: lightgray;
+	padding: 2px 8px;
+	color: white;
+	border-radius: 5px;
+	margin: 6px;
+}
+
+.succcess_badge a{
+	text-decoration: none;
+	background-color: lightgreen;
+	padding: 2px 8px;
+	color: white;
+	border-radius: 5px;
+	margin: 6px;
+}
+
+.danger_badge a{
+	text-decoration: none;
+	background-color: red;
+	padding: 2px 8px;
+	color: white;
+	border-radius: 5px;
+	margin: 6px;
+}
+
+.warning_badge a{
+	text-decoration: none;
+	background-color: yellow;
+	padding: 2px 8px;
+	color: white;
+	border-radius: 5px;
+	margin: 6px;
+}
+
+.info_badge a{
+	text-decoration: none;
+	background-color: lightblue;
+	padding: 2px 8px;
+	color: white;
+	border-radius: 5px;
+	margin: 6px;
+}
+/* Task-2 */
+
+
+.main_container2{
+	margin: 50px auto;
+	border: 2px solid blue;
+	width: 90%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+    justify-content: space-evenly;
+	position: relative;
+	
+}
+
+.red_dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    left: 80px;
+    bottom: 46px;
+}
+
+.green_dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+    position: relative;
+    left: 80px;
+    bottom: 46px;
+}
+
+.primary_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: blue;
+	padding: 6px 12px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+	
+}
+
+.secondary_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: gray;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.success_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: lightgreen;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.danger_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: red;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.warning_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: yellow;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.info_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: skyblue;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.light_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: white;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.dark_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: gray;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+/* Task-3 */
+
+
+.main_container3{
+	margin: 50px auto;
+	border: 2px solid blue;
+	width: 90%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+    justify-content: space-evenly;
+	position: relative;
+	
+}
+
+.primary_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: blue;
+	padding: 6px 12px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative; 
+}
+
+.red_dot2{
+    width: 24px;
+    height: 16px;
+    border-radius: 30%;
+    background-color: red;
+    position: relative;
+    left: 72px;
+    bottom: 46px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+.secondary_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: gray;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.success_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: lightgreen;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.danger_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: red;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.warning_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: yellow;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.info_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: skyblue;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.light_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: white;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.dark_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: lightgray;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+/* Task-4 */
+
+.main_container4{
+	margin: 50px auto;
+	border: 2px solid blue;
+	width: 90%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+    justify-content: space-evenly;
+	position: relative;
+	flex-wrap: wrap;
+    align-content: space-between;
+	
+}
+
+.primary_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: blue;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative; 
+	
+}
+
+.primary_box span{
+	margin: 0 10px;
+	color: white;
+	background-color: gray;
+	padding: 2px 4px;
+}
+
+.secondary_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: gray;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.secondary_box span{
+	margin: 0 10px;
+	color: white;
+	background-color: gray;
+	padding: 2px 4px;
+}
+
+.success_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: lightgreen;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.success_box span{
+	margin: 0 10px;
+	color: white;
+	background-color: gray;
+	padding: 2px 4px;
+}
+
+.danger_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: red;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.danger_box span{
+	margin: 0 10px;
+	color: white;
+	background-color: gray;
+	padding: 2px 4px;
+}
+
+.warning_box a{
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+	background-color: yellow;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.warning_box span{
+	margin: 0 10px;
+	color: white;
+	background-color: gray;
+	padding: 2px 4px;
+}
+
+.info_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: skyblue;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.info_box span{
+	margin: 0 10px;
+	color: white;
+	background-color: gray;
+	padding: 2px 4px;
+}
+
+.light_box a{
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+	background-color: white;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+	border: 1px solid gray;
+}
+
+.light_box span{
+	margin: 0 10px;
+	color: white;
+	background-color: gray;
+	padding: 2px 4px;
+}
+
+.dark_box a{
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	background-color: lightgray;
+	padding: 6px 18px;
+	display: inline-block;
+	margin: 10px; 	
+	position: relative;
+}
+
+.dark_box span{
+	margin: 0 10px;
+	color: white;
+	background-color: gray;
+	padding: 2px 4px;
+}
+
+
